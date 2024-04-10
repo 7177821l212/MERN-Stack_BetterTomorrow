@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outer
+{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin-left: 30px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.inner
+{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+.main-section
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.center
+{
+    display: flex;
+    align-items: center;
+}
