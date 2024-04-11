@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Task-Manager/style.css">
+    <title>Task-Manager</title>
+</head>
+<body>
+    <h2 class="h2">Task-Manager</h2>
+    <h3 class="h3">Add your Tasks</h3>
+    <div class="container">
+        <label class="label" for="newtask">Task:</label>
+        <input type="text" id="newtask" placeholder="Enter">
+
+        <label class="label" for="newdescription">Description:</label>
+        <input type="text" id="newdescription" placeholder="Enter">
+
+        <label class="label" for="newduration">Duration:</label>
+        <input type="text" id="newduration" placeholder="Enter">
+        <button onclick="Addtask()" id="btn">Add Task</button>
+
+        <label class="label" for="filter">Filter:</label>
+        <select name="name">
+            <option>Meeting</option>
+            <option>Break</option>
+            <option>Project</option>
+        </select>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Description</th>
+                    <th>Duration[Hrs]</th>
+                </tr>
+            </thead>
+            <tbody id="datas">   </tbody>
+            
+        </table>
+    </div>
+    <script src="/Task-Manager/script.js"></script>
+</body>
+</html>

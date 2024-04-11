@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+.h3
+{
+    font-size: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+
+}
+
+.label
+{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 2px;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: rgb(190, 250, 230);
+}
